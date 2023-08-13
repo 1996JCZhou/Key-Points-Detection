@@ -25,7 +25,7 @@ Visualize the annotation information using the [annotationVisualization](https:/
 ![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/annotationInformation.png)
 
 ### Step 3
-After you have collected enough images to form your own dataset and annotated all of them, you will get a dataset, which looks like [this](https://github.com/1996JCZhou/Key-Points-Detection/tree/master/Dataset%20after%20labeling%20using%20'Labelme'). Then you need to split your dataset for training and validation by using the [dataSplit](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/dataSplit.py) script. In the [const]() script you need to define the address of your source dataset, the address to save your taining and validation datasets and the rate to randomly split images for training and validation.
+After you have collected enough images to form your own dataset and annotated all of them, you will get a dataset, which looks like [this](https://github.com/1996JCZhou/Key-Points-Detection/tree/master/Setsquare_Keypoint_Labelme). Then you need to split your dataset for training and validation by using the [dataSplit](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/dataSplit.py) script. In the [const]() script you need to define the address of your source dataset, the address to save your taining and validation datasets and the rate to randomly split images for training and validation.
 
 After using the [seedir](https://github.com/earnestt1234/seedir) package, the structure will look like this:
 
