@@ -17,14 +17,18 @@ For data preparation the first step is to label your own key point detection dat
 
 ### Step 1
 Down [Labelme](https://github.com/wkentaro/labelme) for windows on this [page](https://github.com/wkentaro/labelme/releases/tag/v5.3.0). Open Labelme directly without installation and choose an image to annotate.
-
 ![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/Labelme%201.PNG)
-
 ![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/Labelme%202.PNG)
 
 ### Setp 2
 Visualize the annotation information using the [annotationVisualization](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/annotationVisualization.py) script in python.
 ![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/annotationInformation.png)
 
+### Step 3
+After you have collected enough images to form your own dataset and annotated all of them, you will get a dataset, which looks like [this](https://github.com/1996JCZhou/Key-Points-Detection/tree/master/Dataset%20after%20labeling%20using%20'Labelme'). Then you need to split your dataset for training and validation by using the [dataSplit](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/dataSplit.py) script. In the [const]() script you need to define the address of your source dataset, the address to save your taining and validation datasets and the rate to randomly split images for training and validation.
+
+After using the [seedir](https://github.com/earnestt1234/seedir) package, the structure will look like this:
+
+![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/structure.PNG)
 
 
