@@ -18,7 +18,9 @@ For data preparation the first step is to label your own key point detection dat
 ### Step 1
 Down 'Labelme' for windows on this [page](https://github.com/wkentaro/labelme/releases/tag/v5.3.0). Open 'Labelme' directly without installation and choose an image to annotate.
 
+![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/Labelme%201.PNG)
 
+![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/Labelme%202.PNG)
 
 
 
