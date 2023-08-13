@@ -20,15 +20,19 @@ Down [Labelme](https://github.com/wkentaro/labelme) for windows on this [page](h
 ![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/Labelme%201.PNG)
 ![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/Labelme%202.PNG)
 
-### Setp 2
 Visualize the annotation information using the [annotationVisualization](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/annotationVisualization.py) script in python.
 ![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/annotationInformation.png)
 
-### Step 3
+### Step 2
 After you have collected enough images to form your own dataset and annotated all of them, you will get a dataset, which looks like [this](https://github.com/1996JCZhou/Key-Points-Detection/tree/master/Setsquare_Keypoint_Labelme). Then you need to split your dataset for training and validation by using the [dataSplit](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/dataSplit.py) script. In the [const]() script you need to define the address of your source dataset, the address to save your taining and validation datasets and the rate to randomly split images for training and validation.
 
 After using the [seedir](https://github.com/earnestt1234/seedir) package, the structure will look like this:
 
 ![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/structure.PNG)
 
+### Step 3
+Use the [labelme2YOLO](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/labelme2YOLO.py) script to transform the json files for image annotation information into txt files that we can feed the YOLOv8 frameworks directly.
 
+The contents in a txt file will look like this:
+
+![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/structure.PNG)
