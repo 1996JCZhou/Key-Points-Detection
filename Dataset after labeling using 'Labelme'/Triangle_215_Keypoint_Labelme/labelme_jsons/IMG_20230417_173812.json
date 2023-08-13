@@ -1,0 +1,114 @@
+{
+  "version": "5.1.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "sjb_rect",
+      "points": [
+        [
+          968.1176470588236,
+          632.7058823529413
+        ],
+        [
+          1721.058823529412,
+          2085.6470588235293
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "sjb_rect",
+      "points": [
+        [
+          1979.8823529411764,
+          653.2941176470589
+        ],
+        [
+          2641.6470588235297,
+          2123.8823529411766
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "angle_30",
+      "points": [
+        [
+          1706.3529411764707,
+          644.4705882352943
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_30",
+      "points": [
+        [
+          2047.529411764706,
+          2097.4117647058824
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_60",
+      "points": [
+        [
+          1588.7058823529412,
+          2068.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_60",
+      "points": [
+        [
+          2006.3529411764705,
+          679.764705882353
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_90",
+      "points": [
+        [
+          982.8235294117649,
+          1656.2352941176473
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_90",
+      "points": [
+        [
+          2635.764705882353,
+          1003.2941176470589
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    }
+  ],
+  "imagePath": "IMG_20230417_173812.jpg",
+  "imageData": null,
+  "imageHeight": 2736,
+  "imageWidth": 3648
+}

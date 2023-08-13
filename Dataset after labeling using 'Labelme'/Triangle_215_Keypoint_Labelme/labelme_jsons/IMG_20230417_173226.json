@@ -1,0 +1,114 @@
+{
+  "version": "5.1.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "sjb_rect",
+      "points": [
+        [
+          735.7647058823532,
+          926.8235294117648
+        ],
+        [
+          1538.7058823529412,
+          2191.529411764706
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "sjb_rect",
+      "points": [
+        [
+          1732.8235294117646,
+          976.8235294117648
+        ],
+        [
+          2968.117647058824,
+          1697.4117647058824
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "angle_30",
+      "points": [
+        [
+          847.5294117647061,
+          944.4705882352943
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_30",
+      "points": [
+        [
+          2953.4117647058824,
+          1065.058823529412
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_60",
+      "points": [
+        [
+          1512.235294117647,
+          2147.4117647058824
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_60",
+      "points": [
+        [
+          1756.3529411764705,
+          1668.0000000000002
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_90",
+      "points": [
+        [
+          765.1764705882354,
+          2150.3529411764703
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_90",
+      "points": [
+        [
+          1791.6470588235295,
+          997.4117647058825
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    }
+  ],
+  "imagePath": "IMG_20230417_173226.jpg",
+  "imageData": null,
+  "imageHeight": 2736,
+  "imageWidth": 3648
+}

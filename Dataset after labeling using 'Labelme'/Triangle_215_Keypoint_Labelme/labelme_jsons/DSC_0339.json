@@ -1,0 +1,166 @@
+{
+  "version": "5.1.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "sjb_rect",
+      "points": [
+        [
+          380.0,
+          1142.0
+        ],
+        [
+          1756.0,
+          2982.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "sjb_rect",
+      "points": [
+        [
+          1912.0,
+          1114.0
+        ],
+        [
+          3036.0,
+          2862.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "sjb_rect",
+      "points": [
+        [
+          3160.0,
+          1086.0
+        ],
+        [
+          5128.0,
+          2006.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "angle_30",
+      "points": [
+        [
+          1718.0,
+          2924.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_30",
+      "points": [
+        [
+          2938.0,
+          1152.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_30",
+      "points": [
+        [
+          3206.0,
+          1936.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_60",
+      "points": [
+        [
+          1082.0,
+          1172.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_60",
+      "points": [
+        [
+          1950.0,
+          2796.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_60",
+      "points": [
+        [
+          5102.0,
+          1860.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_90",
+      "points": [
+        [
+          418.0,
+          1872.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_90",
+      "points": [
+        [
+          3006.0,
+          2804.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_90",
+      "points": [
+        [
+          4518.0,
+          1112.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    }
+  ],
+  "imagePath": "DSC_0339.jpg",
+  "imageData": null,
+  "imageHeight": 3712,
+  "imageWidth": 5568
+}

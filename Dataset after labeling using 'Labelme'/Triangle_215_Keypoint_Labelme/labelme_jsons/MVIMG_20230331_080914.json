@@ -1,0 +1,82 @@
+{
+  "version": "5.1.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "sjb_rect",
+      "points": [
+        [
+          837.0967741935484,
+          1432.258064516129
+        ],
+        [
+          2653.225806451613,
+          2483.870967741935
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "angle_30",
+      "points": [
+        [
+          2630.645161290323,
+          1577.4193548387098
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_60",
+      "points": [
+        [
+          885.4838709677418,
+          2438.7096774193546
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_90",
+      "points": [
+        [
+          972.5806451612904,
+          1477.4193548387098
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "sjb_poly",
+      "points": [
+        [
+          949.9999999999997,
+          1467.741935483871
+        ],
+        [
+          866.1290322580643,
+          2451.612903225807
+        ],
+        [
+          2632.142857142857,
+          1585.7142857142858
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": {}
+    }
+  ],
+  "imagePath": "MVIMG_20230331_080914.jpg",
+  "imageData": null,
+  "imageHeight": 3000,
+  "imageWidth": 4000
+}
