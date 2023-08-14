@@ -1,5 +1,5 @@
-# The folder path of the dataset under the 'datasets' directory.
-path: Triangle_215_Keypoint_YOLO
+# The absolute folder path of the dataset under the 'datasets' directory.
+path: "D:\\Python Spyder\\Key Point Detection\\Dataset\\KeyPointDetection_YOLO"
 
 # The path of the training set, the validation set and the test set relative to 'path'.
 train: images/train
