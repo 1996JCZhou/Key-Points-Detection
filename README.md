@@ -9,8 +9,14 @@ Keypoint Detection stands as a fundamental and core task in the realm of compute
 - os
 - shutil
 - random
-- seedir
+- seedir emoji
 - tqdm
+- ultralytics
+- numpy
+- pillow
+- seaborn
+- pandas
+- wandb
 
 ## Data preparation
 For data preparation the first step is to label your own key point detection dataset. I used the labeling tool [Labelme](https://github.com/wkentaro/labelme) to label boxes, points, and polylines to form a **keypoint detection dataset for set squares with 30-60-90 degree angles**. Furthermore, interpret the labelme annotation file and use [OpenCV](https://github.com/opencv/opencv) in python scripts to visualize the annotation information. Lay the foundation for subsequent label format conversion and algorithm training.
@@ -33,7 +39,7 @@ After using the [seedir](https://github.com/earnestt1234/seedir) package, the st
 ![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/structure.PNG)
 
 ### Step 3 - Annotation information transformation
-Use the [labelme2YOLO](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/labelme2YOLO.py) script to transform the json files for image annotation information into txt files that we can feed the YOLOv8 frameworks directly. Center coordinates, width and height of all bounding boxes along with coordinate of each keypoint are normalized by the width or height of the image.
+Use the [labelme2YOLO](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/labelme2YOLO.py) script to transform the json files for image annotation information into txt files that we can feed the YOLOv8 frameworks directly. Center coordinates, width and height of all bounding boxes along with coordinate of each keypoint are normalized by the width or height of the image. After transformation, you will get a dataset, which looks like [this](https://github.com/1996JCZhou/Key-Points-Detection/tree/master/KeyPointDetection_YOLO).
 
 The contents in a txt file will look like this:
 ![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/Annotation%20information.png)
@@ -42,4 +48,8 @@ You are now for training the YOLOv8 framework using your own dataset!
 
 ## Training of deep learning frameworks of YOLOv8
 
+### Step 4 - YOLOv8 installation
+pip install ultralytics --upgrade
+
+To verify if the installation was successful, type "python" in the command line interface to start the pythoon environment. Then "import ultralytics", followed by "ultralytics.checks()".
 
