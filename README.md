@@ -88,6 +88,8 @@ yolo pose predict model=TRAINED_MODEL.pt source=0 show verbose=False
 ### Inference and prediction of a video
 Welcome to see my videos in my Youtube channel for this project.
 
+A short video for quick test: https://www.youtube.com/shorts/VOS-zydVQg8.
+
 Original video: https://www.youtube.com/watch?v=PpCS5-kpklY,
 
 Result video after training 100 Epochs: https://www.youtube.com/watch?v=oKym5_25l40 and
