@@ -60,7 +60,7 @@ Since I don't have a high performance GPU of my own, I chose the [Featurize](htt
 ### Step 6 - Training of YOLOv8 using Transfer Learning on a single GPU
 Before training, we need to define a yaml file, which contains information about the datasets for taining and validation, keypoints and the category of the bounding box. An example of the yaml file looks like [this](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/setSquare_KD_YOLO.yaml).
 
-I have used several official YOLOV8 keypoint detection pre-training models to train my **keypoint detection dataset for set squares with 30-60-90 degree angles**. They are: **yolov8n-pose.pt**, **yolov8s-pose.pt**, **yolov8m-pose.pt**, **yolov8l-pose.pt**, **yolov8x-pose.pt** and **yolov8x-pose-p6.pt**. 
+Here is the [template](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/YOLOv8%20command%20template.PNG) of YOLOv8 commands. I have used several official YOLOV8 keypoint detection pre-training models to train my **keypoint detection dataset for set squares with 30-60-90 degree angles**. They are: **yolov8n-pose.pt**, **yolov8s-pose.pt**, **yolov8m-pose.pt**, **yolov8l-pose.pt**, **yolov8x-pose.pt** and **yolov8x-pose-p6.pt**. You can search for more details about arguments for training process on this official [page](https://docs.ultralytics.com/modes/train/).
 
 Type one of the following commands in the command line interface to start training:
 - yolo pose train data=Triangle_215.yaml model=yolov8n-pose.pt pretrained=True project=setSquare_KD name=n_pretrain epochs=50 batch=16 device=0
@@ -69,3 +69,5 @@ Type one of the following commands in the command line interface to start traini
 - yolo pose train data=Triangle_215.yaml model=yolov8l-pose.pt pretrained=True project=setSquare_KD name=l_pretrain epochs=50 batch=4 device=0
 - yolo pose train data=Triangle_215.yaml model=yolov8x-pose.pt pretrained=True project=setSquare_KD name=x_pretrain epochs=50 batch=4 device=0
 - yolo pose train data=Triangle_215.yaml model=yolov8x-pose-p6.pt pretrained=True imgsz=1280 project=setSquare_KD name=x_p6_pretrain epochs=50 batch=2 device=0
+
+
