@@ -31,7 +31,7 @@ After using the [seedir](https://github.com/earnestt1234/seedir) package, the st
 ![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/structure.PNG)
 
 ### Step 3
-Use the [labelme2YOLO](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/labelme2YOLO.py) script to transform the json files for image annotation information into txt files that we can feed the YOLOv8 frameworks directly.
+Use the [labelme2YOLO](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/labelme2YOLO.py) script to transform the json files for image annotation information into txt files that we can feed the YOLOv8 frameworks directly. Center coordinates, width and height of all bounding boxes along with coordinate of each keypoint are normalized by the width or height of the image.
 
 The contents in a txt file will look like this:
 
