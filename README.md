@@ -1,4 +1,4 @@
-# Keypoint Detection using YOLOv8
+# Keypoint Detection using YOLOv8 in 6 Steps
 Keypoint Detection stands as a fundamental and core task in the realm of computer vision. This task involves the identification of semantically significant points within an image, ultimately yielding the coordinates of these points. The complete process of keypoint detection encompasses various stages: dataset annotation, deep learning frameworks of [YOLOv8](https://github.com/ultralytics/ultralytics) training, performance evaluation, inference and prediction, as well as application deployment. Whether you're a novice or an experienced computer vision enthusiast, this README provides insights into the key aspects of the keypoint detection pipeline. From understanding the importance of dataset annotation to mastering the training of deep learning models, this repository aims to guide you through each stage of the keypoint detection journey. Feel free to explore the provided resources, codes, and documentation. :)
 
 ## Requirements
@@ -55,7 +55,7 @@ To verify if the installation was successful, type "python" in the command line 
 ![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/ultralytics.PNG)
 
 ### Step 5 - Cloud Computing Platform Setup
-Since I don't have a high performance GPU of my own, I chose the [Featurize](https://featurize.cn/) as my Cloud Computing Platform. There are many types of GPUs out there for you to choose from.
+Since I don't have a high performance GPU of my own, I chose the [Featurize](https://featurize.cn/) as my Cloud Computing Platform. There are many types of high performance GPUs out there for you to choose from.
 
 ### Step 6 - Training of YOLOv8 using Transfer Learning on a single GPU
 Before training, we need to define a yaml file, which contains information about the datasets for taining and validation, keypoints and the category of the bounding box. An example of the yaml file looks like [this](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/setSquare_KD_YOLO.yaml).
@@ -70,4 +70,27 @@ Type one of the following commands in the command line interface to start traini
 - yolo pose train data=Triangle_215.yaml model=yolov8x-pose.pt pretrained=True project=setSquare_KD name=x_pretrain epochs=50 batch=4 device=0
 - yolo pose train data=Triangle_215.yaml model=yolov8x-pose-p6.pt pretrained=True imgsz=1280 project=setSquare_KD name=x_p6_pretrain epochs=50 batch=2 device=0
 
+## Model inference and prediction
+### Inference and prediction of a single image
+yolo pose predict model=TRAINED_MODEL.pt source=IMAGE_PRED.jpg device=0
+
+### Inference and prediction of a video
+yolo pose predict model=TRAINED_MODEL.pt source=VIDEO_PRED.mp4 device=0 verbose=False
+
+### Inference and prediction of real-time camera images
+yolo pose predict model=TRAINED_MODEL.pt source=0 show verbose=False
+
+## My own results
+### Inference and prediction of a single image
+
+![image](https://github.com/1996JCZhou/Key-Points-Detection/blob/master/Images%20for%20README/output_image.jpg)
+
+### Inference and prediction of a video
+Welcome to see my videos in my Youtube channel for this project.
+
+Original video: https://www.youtube.com/watch?v=PpCS5-kpklY,
+
+Result video after training 100 Epochs: https://www.youtube.com/watch?v=oKym5_25l40 and
+
+Result video after training 300 Epochs: https://www.youtube.com/watch?v=-ToolcpQbsI.
 
