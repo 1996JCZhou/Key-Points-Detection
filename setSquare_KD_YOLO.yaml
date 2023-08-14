@@ -1,0 +1,17 @@
+# The folder path of the dataset under the 'datasets' directory.
+path: Triangle_215_Keypoint_YOLO
+
+# The path of the training set, the validation set and the test set relative to 'path'.
+train: images/train
+val: images/val
+test: images/val
+
+# There are 3 kinds of key points.
+# Each key point has three parameters of whether this point is visible or not.
+# '2' for visible, not occluded; '1' for occluded; '0' for no point.
+kpt_shape: [3, 3]
+
+# The category the bounding box represents for.
+# For keypoint detection, there is only one category.
+names:
+  0: sjb_rect
